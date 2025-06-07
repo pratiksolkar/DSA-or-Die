@@ -15,7 +15,7 @@ int main(){
     arr[i]=arr[i+1];
   }
   
-  printf("Final array... \n");
+  printf("Final array...\n");
   for(int i=0; i<numElement-1; i++){
     printf("%d\n", arr[i]);
   }
